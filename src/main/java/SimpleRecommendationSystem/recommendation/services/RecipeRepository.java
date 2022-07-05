@@ -2,15 +2,18 @@ package SimpleRecommendationSystem.recommendation.services;
 
 import SimpleRecommendationSystem.recommendation.model.Recipe;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
+@Repository
 public class RecipeRepository {
+
     private final IngredientRepository ingredientRepository;
     private final InstructionRepository instructionRepository;
     private final JdbcTemplate jdbcTemplate;
+
     private final String INSTRUCTION_QUERY =
             "SELECT instruction.name, recipe.cuisine AS cuisine, instruction.id" + " " +
                     "FROM instruction" + " " +
