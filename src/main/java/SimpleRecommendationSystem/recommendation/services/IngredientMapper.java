@@ -1,7 +1,6 @@
 package SimpleRecommendationSystem.recommendation.services;
 
-import SimpleRecommendationSystem.recommendation.model.Ingredients;
-import SimpleRecommendationSystem.recommendation.model.Recipe;
+
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;
