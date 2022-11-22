@@ -9,6 +9,9 @@ public class Instructions {
         this.name = name;
     }
 
+    public Instructions() {
+    }
+
     public int getId() {
         return id;
     }
