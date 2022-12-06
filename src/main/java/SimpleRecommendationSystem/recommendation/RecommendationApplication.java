@@ -1,14 +1,8 @@
 package SimpleRecommendationSystem.recommendation;
 
-import SimpleRecommendationSystem.recommendation.services.IngredientRepository;
-import SimpleRecommendationSystem.recommendation.services.InstructionRepository;
-import SimpleRecommendationSystem.recommendation.services.RecipeRepository;
-import SimpleRecommendationSystem.recommendation.services.RecipeService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 @SpringBootApplication

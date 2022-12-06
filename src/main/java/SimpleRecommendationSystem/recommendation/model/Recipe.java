@@ -1,9 +1,5 @@
 package SimpleRecommendationSystem.recommendation.model;
 
-
-import SimpleRecommendationSystem.recommendation.services.Ingredient;
-import SimpleRecommendationSystem.recommendation.services.Instruction;
-
 import java.util.List;
 
 public class Recipe {
@@ -18,16 +14,20 @@ public class Recipe {
         this.ingredients = ingredients;
         this.instructions = instructions;
     }
-
+    public Recipe(){}
 
     public int getId() {
         return id;
     }
-
     public String getCuisine() {
         return cuisine;
     }
-
+    public List<Ingredient> getIngredients() {
+        return ingredients;
+    }
+    public List<Instruction> getInstructions() {
+        return instructions;
+    }
 
     @Override
     public String toString() {
@@ -38,12 +38,4 @@ public class Recipe {
                 ", instructions=" + instructions +
                 '}';
     }
-
-    public List<Ingredient> getIngredients() {
-        return ingredients;
-    }
-    public List<Instruction> getInstructions() {
-        return instructions;
-    }
-
 }
