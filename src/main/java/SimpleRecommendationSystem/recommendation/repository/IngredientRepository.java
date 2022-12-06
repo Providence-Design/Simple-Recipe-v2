@@ -1,5 +1,6 @@
-package SimpleRecommendationSystem.recommendation.services;
+package SimpleRecommendationSystem.recommendation.repository;
 
+import SimpleRecommendationSystem.recommendation.model.Ingredient;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 

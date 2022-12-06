@@ -1,15 +1,15 @@
 package SimpleRecommendationSystem.recommendation.model;
 
-public class Instructions {
+public class Instruction {
     private int id;
     private String name;
 
-    public Instructions(int id, String name) {
+    public Instruction(int id, String name) {
         this.id = id;
         this.name = name;
     }
 
-    public Instructions() {
+    public Instruction() {
     }
 
     public int getId() {

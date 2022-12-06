@@ -1,8 +1,5 @@
 package SimpleRecommendationSystem.recommendation.model;
 
-import SimpleRecommendationSystem.recommendation.services.Ingredient;
-import SimpleRecommendationSystem.recommendation.services.Instruction;
-
 import java.util.List;
 
 public class Recipe {

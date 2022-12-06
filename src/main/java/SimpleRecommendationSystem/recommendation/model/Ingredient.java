@@ -1,10 +1,10 @@
 package SimpleRecommendationSystem.recommendation.model;
 
-public class Ingredients {
+public class Ingredient {
     private int id;
     private String name;
 
-    public Ingredients(int id, String name) {
+    public Ingredient(int id, String name) {
         this.id = id;
         this.name = name;
     }
